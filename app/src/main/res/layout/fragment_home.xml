@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.HomeFragment">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <Button
+                android:id="@+id/add_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Category"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/add_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Product"
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Product"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/add_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Slider"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/add_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Order Detail"
+                android:textSize="22sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </FrameLayout>
+</layout>
